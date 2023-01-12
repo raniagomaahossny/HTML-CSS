@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+#mainbody {
+  background-image: url("./../img/WhatsApp\ Image\ 2023-01-02\ at\ 1.40.47\ PM.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(19, 18, 18);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1% 5%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color: #04aa6d;
+  color: white;
+}
+#loginbutton {
+  background-color: red;
+  padding: 0.25% 2%;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: medium;
+  margin: 1% 2%;
+  border: black;
+  color: white;
+  cursor: pointer;
+}
+
+#loginbutton:hover {
+  background-color: #ddd;
+  color: black;
+}
+#loginbutton:active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+#signupbutton {
+  background-color: red;
+  padding: 0.25% 2%;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: medium;
+  margin: 1% 2%;
+  border: black;
+  color: white;
+  cursor: pointer;
+}
+
+#signupbutton:hover {
+  background-color: #ddd;
+  color: black;
+}
+#signupbutton:active {
+  background-color: #04aa6d;
+  color: white;
+}
+.blocks {
+  display: flex;
+  margin-top: 18%;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 40px;
+}
+.block1 {
+  background: rgba(0, 0, 0, 0.99);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+.block1 .img {
+  display: flex;
+  padding-top: 50px;
+}
+.block1 .b1l {
+  font-weight: 600;
+  font-size: 200%;
+  color: white;
+}
+.block1 .b1i2 {
+  width: 60%;
+  height: auto;
+  padding-left: 50px;
+}
+.block1 .b1i1 {
+  width: 40%;
+  height: auto;
+}
+.block2 {
+  background: rgba(0, 0, 0, 0.99);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+.block2 .img {
+  display: flex;
+  padding-top: 50px;
+}
+.block2 .b1l {
+  font-weight: 600;
+  font-size: 200%;
+  color: white;
+}
+.block2 .b1i2 {
+  width: 60%;
+  height: auto;
+  padding-left: 50px;
+}
+.block2 .b1i1 {
+  width: 40%;
+  height: auto;
+}
+.block3 {
+  background: rgba(0, 0, 0, 0.99);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+.block3 .img {
+  display: flex;
+  padding-top: 50px;
+}
+.block3 .b1l {
+  font-weight: 600;
+  font-size: 200%;
+  color: white;
+}
+.block3 .b1i2 {
+  width: 60%;
+  height: auto;
+  padding-left: 50px;
+}
+.block3 .b1i1 {
+  width: 40%;
+  height: auto;
+}
